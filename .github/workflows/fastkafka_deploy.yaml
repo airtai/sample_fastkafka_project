@@ -10,6 +10,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: airtai/workflows/fastkafka-ghp@publish-fastkafka-docs
+      - uses: airtai/workflows/fastkafka-ghp@main
         with:
-          app: "sample_fastkafka.application:kafka_app"
+          app: "application:kafka_app"
