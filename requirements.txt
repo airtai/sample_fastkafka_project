@@ -1,0 +1,1 @@
+fastkafka==0.1.2rc0
