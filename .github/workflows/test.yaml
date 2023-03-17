@@ -18,4 +18,5 @@ jobs:
           set -ux
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          fastkafka testing install_deps
           python test.py
