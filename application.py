@@ -9,7 +9,7 @@ from typing import *
 
 from os import environ
 
-from fastkafka.application import FastKafka
+from fastkafka import FastKafka
 from pydantic import BaseModel, NonNegativeFloat, Field
 
 # %% ../nbs/00_application.ipynb 5
