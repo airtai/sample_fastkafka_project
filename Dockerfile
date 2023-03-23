@@ -7,4 +7,4 @@ COPY application.py requirements.txt /project/
 
 RUN pip install --no-cache-dir -r /project/requirements.txt
 
-CMD ["fastkafka", "run", "--num-workers", "2", "application:kafka_app"]
+CMD ["fastkafka", "run", "--num-workers", "2", "--kafka-broker", "production", "application:kafka_app"]
