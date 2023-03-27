@@ -1,1 +1,1 @@
-fastkafka
+fastkafka[test,docs]==0.3.1
